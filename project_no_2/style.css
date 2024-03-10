@@ -149,4 +149,174 @@ header {
     align-items: center;
 }
 
-.products .products-heading 
+.products .products-heading {
+    font-family: var(--primary-font);
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.products .product-categories button {
+    margin-right: 20px;
+    margin-bottom: 2rem;
+}
+
+.products .product-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    max-width: 60rem;
+}
+
+.products .product-items-container .item {
+    margin: 20px;
+}
+
+.products .product-items-container .item-layer {
+    background: #cfcfcf;
+    padding:40px;
+    margin-right: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.products .product-items-container .item-layer img {
+width: 150px;
+height: 200px;
+background-size: cover;
+
+}
+
+.products .product-items-container .item .item-name {
+    font-family: var(--primary-font);
+    margin-bottom: 10px;
+}
+
+.products .product-items-container .item .item-price {
+    font-family: var(--main-color);
+    margin-bottom: 10px;
+}
+
+.products .product-items-container .item .view-product {
+    font-family: var(--main-color);
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: var(--main-color);
+    border-bottom: 1px solid var(--main-color);
+}
+
+/*  Product section End */
+
+/*  Customer Review Section Start*/
+.customer-heading {
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 2rem;
+}
+
+.customer-reviews {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.customer {
+    text-align: center;
+    justify-content: space-around;
+    box-shadow: 4px 7px 5px 2px #808080;
+    margin-bottom: 20px;
+}
+
+
+.customer-reviews .customer-description {
+    font-size: 12px;
+    margin-top: 20px;
+    max-width: 200px;
+    text-align: center;
+    margin: 1rem;
+    font-family: var(--primary-font);
+}
+
+.customer .customer-img .img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center ;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.customer .img-one {
+    background: url(https://media.istockphoto.com/id/1364643353/photo/joyous-cute-boy-in-eyeglasses-posing-for-the-camera.jpg?s=612x612&w=0&k=20&c=gOWOwTkTMLWlIOFY-Dcw_feXmVNLfYy__6Z9vrcddWI=);
+}
+.customer .img-two {
+    background: url(https://st4.depositphotos.com/5653638/25152/i/600/depositphotos_251525746-stock-photo-small-indian-sikh-boy-studying.jpg);
+}
+.customer .img-three {
+    background: url(https://media.istockphoto.com/id/1363893496/photo/a-boy-with-vitiligo-in-a-red-t-shirt-gray-jacket-on-black-background.jpg?s=612x612&w=0&k=20&c=ANN8f2y8o08gtV1QRYXbLRDOp3RrlQNAuHKuuuQxa0A=);
+}
+/* Customer Reviews Section End */
+
+
+/* Footer start */
+footer {
+    background: #3e3b3b;
+    margin-top: 10rem;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    font-family: var(--primary-font);
+
+}
+
+.footer.container.footer-heading{
+    margin-bottom: 3rem;
+}
+
+footer.container.footer-primary-heading {
+    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 20px
+}
+/* Footer End */
+
+/* Media Query */
+@media only screen and (max-width:900px) {
+header {
+    height: 120vh;
+    text-align: center;
+}
+
+.section-one{
+    height: 120vh;
+    text-align: center;
+}
+
+.header-img{
+    width: 250px;
+    height: 250px;
+}
+.main-heading{
+    font-size: 3rem;
+    margin: 2rem;
+}
+.primary-heading{
+    width: 400px;
+}
+
+.customer .customer-img .img{
+    width: 100px;
+    height: 100px;
+}
+}
+
